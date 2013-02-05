@@ -1,0 +1,14 @@
+{
+    "name" : "jquery-exile",
+    "version" : "0.0.1",
+    "main" : "./jquery.exile.js",
+    "dependencies" : {
+        "jquery" : ">=1.9"
+    },
+    "readmeFilename" : "README.md",
+    "description" : "",
+    "repository" : {
+        "type" : "git",
+        "url"  : "git://github.com/chris4403/exilejs.git"
+    }
+}
