@@ -12,12 +12,4 @@
 　　　　(＿) (__)
 
 
-## Installation
-
-### bower
-
-```
-$ bower install jquery-exile
-```
-
 
