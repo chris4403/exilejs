@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="./jquery.exile.js"></script>
+    <style>
+      #stage {
+        position : absolute;
+        background-color : #EEEEEE;
+        width  : 500px;
+        height : 300px;
+      }
+    </style>
+    <script>
+      $(function() {
+          $('#member img').exile({
+            stage : "#stage"
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="member">
+      <img src="http://www.hatena.ne.jp/users/nm/nmy/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/na/nanto_vi/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/ar/AirReader/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/mo/motemen/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/ha/hakobe932/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/hi/hitode909/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/ch/chris4403/profile.gif">
+      <img src="http://www.hatena.ne.jp/users/on/onishi/profile.gif">
+    </div>
+    <div id="stage">
+    </div>
+  </body>
+</html>
